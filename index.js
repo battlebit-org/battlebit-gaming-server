@@ -27,10 +27,10 @@ const port             = process.env.PORT;
 // Initialize Express and middlewares
 var app = express();
 app.use(session({secret: SESSION_SECRET, resave: false, saveUninitialized: false}));
-app.use(express.static('public'));
+app.use(express.static("public"));
 app.use(passport.initialize());
 app.use(passport.session());
-//app.set("view engine", "ejs");
+app.set("view engine", "ejs");
 
 // Override passport profile function to get user profile from Twitch API
 OAuth2Strategy.prototype.userProfile = function(accessToken, done) {
@@ -87,8 +87,9 @@ app.get('/auth/twitch/callback', passport.authenticate('twitch', { successRedire
 // If user has an authenticated session, display it, otherwise display link to authenticate
 app.get('/', function (req, res) {
   if(req.session && req.session.passport && req.session.passport.user) {
-    //res.render("index");
-    res.send("OK")
+    const userData = req.session.passport.user;
+    console.log(JSON.stringify(userData));
+    res.render("index",{userData});
   }
 });
 

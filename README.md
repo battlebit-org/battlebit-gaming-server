@@ -1,8 +1,8 @@
-# twitch-auth-sample
+# battlebit-gaming-server
 
-Twitch API Authentication Example using Node, Express, and Passport.
+Twitch auth sample wrapper and api call services
 
-[![npm version](https://badge.fury.io/js/twitch-auth-sample.svg)](https://badge.fury.io/js/twitch-auth-sample)
+[![npm version](https://badge.fury.io/js/battlebit-gaming-server.svg)](https://badge.fury.io/js/battlebit-gaming-server)
 
 ![ADD ALT TEXT FOR IMAGE HERE](https://user-images.githubusercontent.com/887639/51285828-54e0a580-19be-11e9-8ac8-48153753e445.png)
 
@@ -14,13 +14,13 @@ This is your elevator pitch area.]
 ## Installation
 
 ```bash
-$ npm i twitch-auth-sample
+$ npm i battlebit-gaming-server
 ```
 
 or
 
 ```bash
-$ yarn add twitch-auth-sample
+$ yarn add battlebit-gaming-server
 ```
 
 ## Usage
@@ -54,7 +54,7 @@ const thingie = createThingie(config);
 
 ```jsx
 import React from 'react';
-import { createThingie } from 'twitch-auth-sample';
+import { createThingie } from 'battlebit-gaming-server';
 
 const Thingie = createThingie();
 
@@ -69,13 +69,13 @@ export default MyThingie;
 
 ## Live demo
 
-You can view/edit the twitch-auth-sample demo app on CodeSandbox.
+You can view/edit the battlebit-gaming-server demo app on CodeSandbox.
 
 [![Edit demo app on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/donavon/use-step-multi-step-form-demo/tree/master/?module=%2Fsrc%2FDarkModeToggle.jsx)
 
 ## License
 
-**[Apache-2.0](LICENSE)** Licensed
+**[MIT](LICENSE)** Licensed
 
 ---
 

@@ -5,6 +5,7 @@ Twitch auth sample wrapper and api call services
 [![npm version](https://badge.fury.io/js/battlebit-gaming-server.svg)](https://badge.fury.io/js/battlebit-gaming-server)
 
 ![BATTLEBIT LOGO](https://user-images.githubusercontent.com/11546953/99878854-1550f900-2be7-11eb-965b-d592d2df0b32.png =250x250)
+<img src="https://user-images.githubusercontent.com/11546953/99878854-1550f900-2be7-11eb-965b-d592d2df0b32.png" width="200" />
 
 [💡 Image Pro Tip: Paste an image into a GitHub issue comment (any repo). It will give back the markdown you can paste above. You don't even need to submit it!]
 
